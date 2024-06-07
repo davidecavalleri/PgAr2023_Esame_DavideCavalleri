@@ -1,0 +1,425 @@
+{
+  "ruoli": [
+    "Sceriffo",
+    "Fuorilegge",
+    "Vice",
+    "Rinnegato"
+  ],
+  "personaggi": [
+    {
+      "pf": 4,
+      "nome": "Bart Cassidy",
+      "descrizione": "Ogni volta che perde un PF, pesca immediatamente una carta dal mazzo."
+    },
+    {
+      "pf": 3,
+      "nome": "El Gringo",
+      "descrizione": "Ogni volta che perde un PF a causa di una carta giocata da un giocatore, pesca una carta a caso dalla mano di quel giocatore (una per ogni punto vita perso). Se quel giocatore non ha carte in mano -peccato!- non pesca."
+    },
+    {
+      "pf": 4,
+      "nome": "Jourdonnais",
+      "descrizione": "È come se avesse sempre in gioco un Barile; può cioè “estrarre!” quando è il bersaglio di un BANG!, e con Cuori è mancato. Un'eventuale Barile reale in gioco si somma alla sua abilità naturale, consentendogli di tentare per due volte di annullare il colpo."
+    },
+    {
+      "pf": 3,
+      "nome": "Paul Regret",
+      "descrizione": "È come se avesse sempre in gioco un Mustang; è visto cioè subito dagli altri a una distanza aumentata di 1. Un'eventuale Mustang reale in gioco si somma alla sua abilità naturale, aumentando in totale la distanza a cui è visto di 2."
+    },
+    {
+      "pf": 4,
+      "nome": "Rose Doolan",
+      "descrizione": "È come se avesse sempre in gioco un Mirino; vede cioè subito gli altri ad una distanza diminuita di 1. Un eventuale Mirino reale in gioco si somma alla sua abilità naturale, diminuendo in totale la distanza a cui vede gli altri di 2."
+    },
+    {
+      "pf": 4,
+      "nome": "Sid Ketchum",
+      "descrizione": "In qualunque momento può scartare 2 carte dalla propria mano per recuperare 1 PF. Se vuole e gli è possibile, può anche usare più volte di seguito quest'abilità. Ricordate che non si possono mai avere più PF di quelli iniziali."
+    },
+    {
+      "pf": 4,
+      "nome": "Suzy Lafayette",
+      "descrizione": "Non appena rimane senza carte in mano, pesca immediatamente una carta dal mazzo."
+    }
+  ],
+  "armi": [
+    {
+      "nome": "Schofield",
+      "distanza": 2,
+      "copie": [
+        {
+          "valore": "JACK",
+          "seme": "FIORI"
+        },
+        {
+          "valore": "DONNA",
+          "seme": "FIORI"
+        },
+        {
+          "valore": "RE",
+          "seme": "PICCHE"
+        }
+      ]
+    },
+    {
+      "nome": "Remington",
+      "distanza": 3,
+      "copie": [
+        {
+          "valore": "RE",
+          "seme": "FIORI"
+        }
+      ]
+    },
+    {
+      "nome": "Rev. Carabine",
+      "distanza": 4,
+      "copie": [
+        {
+          "valore": "ASSO",
+          "seme": "FIORI"
+        }
+      ]
+    },
+    {
+      "nome": "Winchester",
+      "distanza": 5,
+      "copie": [
+        {
+          "valore": "OTTO",
+          "seme": "PICCHE"
+        }
+      ]
+    }
+  ],
+  "carte": [
+    {
+      "equipaggiabile": false,
+      "nome": "BANG!",
+      "descrizione": "La carta BANG! è il modo principale per togliere un PF ad un giocatore. Se vuoi giocare una carta BANG! devi verificare:\n1. a quale distanza si trova quel giocatore; e\n2. se la tua arma raggiunge almeno tale distanza di fuoco.",
+      "copie": [
+        {
+          "valore": "ASSO",
+          "seme": "PICCHE"
+        },
+        {
+          "valore": "DUE",
+          "seme": "QUADRI"
+        },
+        {
+          "valore": "TRE",
+          "seme": "QUADRI"
+        },
+        {
+          "valore": "QUATTRO",
+          "seme": "QUADRI"
+        },
+        {
+          "valore": "CINQUE",
+          "seme": "QUADRI"
+        },
+        {
+          "valore": "SEI",
+          "seme": "QUADRI"
+        },
+        {
+          "valore": "SETTE",
+          "seme": "QUADRI"
+        },
+        {
+          "valore": "OTTO",
+          "seme": "QUADRI"
+        },
+        {
+          "valore": "NOVE",
+          "seme": "QUADRI"
+        },
+        {
+          "valore": "DIECI",
+          "seme": "QUADRI"
+        },
+        {
+          "valore": "JACK",
+          "seme": "QUADRI"
+        },
+        {
+          "valore": "DONNA",
+          "seme": "QUADRI"
+        },
+        {
+          "valore": "RE",
+          "seme": "QUADRI"
+        },
+        {
+          "valore": "ASSO",
+          "seme": "QUADRI"
+        },
+        {
+          "valore": "DUE",
+          "seme": "FIORI"
+        },
+        {
+          "valore": "TRE",
+          "seme": "FIORI"
+        },
+        {
+          "valore": "QUATTRO",
+          "seme": "FIORI"
+        },
+        {
+          "valore": "CINQUE",
+          "seme": "FIORI"
+        },
+        {
+          "valore": "SEI",
+          "seme": "FIORI"
+        },
+        {
+          "valore": "SETTE",
+          "seme": "FIORI"
+        },
+        {
+          "valore": "OTTO",
+          "seme": "FIORI"
+        },
+        {
+          "valore": "NOVE",
+          "seme": "FIORI"
+        },
+        {
+          "valore": "DONNA",
+          "seme": "CUORI"
+        },
+        {
+          "valore": "RE",
+          "seme": "CUORI"
+        },
+        {
+          "valore": "ASSO",
+          "seme": "CUORI"
+        }
+      ]
+    },
+    {
+      "equipaggiabile": true,
+      "nome": "Barile",
+      "descrizione": "Questa carta ti consente di “estrarre!” quando sei il bersaglio di un BANG!:\n- se esce Cuori sei Mancato! (come se avessi giocato un Mancato!);\n- in caso contrario, non succede niente.",
+      "copie": [
+        {
+          "valore": "DONNA",
+          "seme": "PICCHE"
+        },
+        {
+          "valore": "RE",
+          "seme": "PICCHE"
+        }
+      ]
+    },
+    {
+      "equipaggiabile": false,
+      "nome": "Birra",
+      "descrizione": "Questa carta ti fa recuperare un PF. Non puoi mai avere più PF di quelli con cui hai iniziato! Non puoi giocare la Birra per far recuperare punti vita a un altro giocatore.\nPuoi giocare la Birra in due modi:\n1. normalmente, durante il tuo turno;\n2. fuori turno, ma solo se hai appena ricevuto un colpo fatale, cioè un colpo che ti toglierebbe l'ultimo punto vita (e non se vieni semplicemente ferito).\nLa Birra non ha più nessun effetto se rimangono solo 2 personaggi in gioco; in altre parole, se giochi la Birra non recuperi alcun punto vita.",
+      "copie": [
+        {
+          "valore": "SEI",
+          "seme": "CUORI"
+        },
+        {
+          "valore": "SETTE",
+          "seme": "CUORI"
+        },
+        {
+          "valore": "OTTO",
+          "seme": "CUORI"
+        },
+        {
+          "valore": "NOVE",
+          "seme": "CUORI"
+        },
+        {
+          "valore": "DIECI",
+          "seme": "CUORI"
+        },
+        {
+          "valore": "JACK",
+          "seme": "CUORI"
+        }
+      ]
+    },
+    {
+      "equipaggiabile": false,
+      "nome": "Cat Balou",
+      "descrizione": "Questa carta ne fa scartare una ad un qualsiasi giocatore, indipendentemente dalla distanza.",
+      "copie": [
+        {
+          "valore": "NOVE",
+          "seme": "QUADRI"
+        },
+        {
+          "valore": "DIECI",
+          "seme": "QUADRI"
+        },
+        {
+          "valore": "JACK",
+          "seme": "QUADRI"
+        },
+        {
+          "valore": "RE",
+          "seme": "CUORI"
+        }
+      ]
+    },
+    {
+      "equipaggiabile": false,
+      "nome": "Diligenza",
+      "descrizione": "Questa carta consente di pescare 2 carte dalla cima del mazzo.",
+      "copie": [
+        {
+          "valore": "NOVE",
+          "seme": "PICCHE"
+        },
+        {
+          "valore": "NOVE",
+          "seme": "PICCHE"
+        }
+      ]
+    },
+    {
+      "equipaggiabile": false,
+      "nome": "Gatling",
+      "descrizione": "La Gatling spara un BANG! a tutti gli altri giocatori, indipendentemente dalla distanza. Anche se la Gatling causa un BANG! a tutti gli altri, essa non è una carta BANG! Al tuo turno puoi giocare quante Gatling vuoi, ma sempre una sola carta BANG!.",
+      "copie": [
+        {
+          "valore": "DIECI",
+          "seme": "CUORI"
+        }
+      ]
+    },
+    {
+      "equipaggiabile": false,
+      "nome": "Mancato!",
+      "descrizione": "Quando sei colpito da un BANG! puoi giocare subito, quindi fuori dal tuo turno, un Mancato! per annullare il colpo; se non lo fai, perdi un PF. Quando finisci i PF sei eliminato dal gioco (a meno che non giochi immediatamente una Birra). Puoi annullare solo i BANG! diretti a te, non quelli diretti agli altri. La carta BANG! è comunque scartata, anche se annullata.",
+      "copie": [
+        {
+          "valore": "DUE",
+          "seme": "PICCHE"
+        },
+        {
+          "valore": "TRE",
+          "seme": "PICCHE"
+        },
+        {
+          "valore": "QUATTRO",
+          "seme": "PICCHE"
+        },
+        {
+          "valore": "CINQUE",
+          "seme": "PICCHE"
+        },
+        {
+          "valore": "SEI",
+          "seme": "PICCHE"
+        },
+        {
+          "valore": "SETTE",
+          "seme": "PICCHE"
+        },
+        {
+          "valore": "OTTO",
+          "seme": "PICCHE"
+        },
+        {
+          "valore": "DIECI",
+          "seme": "FIORI"
+        },
+        {
+          "valore": "JACK",
+          "seme": "FIORI"
+        },
+        {
+          "valore": "DONNA",
+          "seme": "FIORI"
+        },
+        {
+          "valore": "RE",
+          "seme": "FIORI"
+        },
+        {
+          "valore": "ASSO",
+          "seme": "FIORI"
+        }
+      ]
+    },
+    {
+      "equipaggiabile": true,
+      "nome": "Mirino",
+      "descrizione": "Quando hai in gioco un Mirino vedi gli altri giocatori a una distanza diminuita di 1. Gli altri invece continuano a vederti alla distanza normale. Distanze inferiori a 1 sono considerate uguali a 1.",
+      "copie": [
+        {
+          "valore": "ASSO",
+          "seme": "PICCHE"
+        }
+      ]
+    },
+    {
+      "equipaggiabile": true,
+      "nome": "Mustang",
+      "descrizione": "Quando hai in gioco un Mustang sei visto dagli altri a una distanza aumentata di 1. Tu invece continui a vedere gli altri alla distanza normale.",
+      "copie": [
+        {
+          "valore": "JACK",
+          "seme": "CUORI"
+        },
+        {
+          "valore": "DONNA",
+          "seme": "CUORI"
+        }
+      ]
+    },
+    {
+      "equipaggiabile": false,
+      "nome": "Panico!",
+      "descrizione": "Questa carta permette di pescare una carta da un giocatore a distanza 1. Ricorda che questa distanza non è modificata dalle armi, ma solo da carte tipo Mustang e/o Mirino.",
+      "copie": [
+        {
+          "valore": "OTTO",
+          "seme": "QUADRI"
+        },
+        {
+          "valore": "JACK",
+          "seme": "CUORI"
+        },
+        {
+          "valore": "DONNA",
+          "seme": "CUORI"
+        },
+        {
+          "valore": "ASSO",
+          "seme": "CUORI"
+        }
+      ]
+    },
+    {
+      "equipaggiabile": false,
+      "nome": "Saloon",
+      "descrizione": "Questa carta è una Birra potenziata, infatti, il suo effetto complessivo è che tutti i giocatori in gioco recuperano un PF. Non puoi giocare il Saloon fuori turno quando stai per perdere l'ultimo punto vita: il Saloon non è una Birra!",
+      "copie": [
+        {
+          "valore": "CINQUE",
+          "seme": "CUORI"
+        }
+      ]
+    },
+    {
+      "equipaggiabile": false,
+      "nome": "Wells Fargo",
+      "descrizione": "Questa carta consente di pescare 3 carte dalla cima del mazzo.",
+      "copie": [
+        {
+          "valore": "TRE",
+          "seme": "CUORI"
+        }
+      ]
+    }
+  ]
+}
